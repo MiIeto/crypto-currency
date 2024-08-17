@@ -1,11 +1,18 @@
+import '@fontsource-variable/outfit';
 
 function App() {
+	return (
+		<>
+			<div className='container'>
+				<h1 className='app-title'>
+					Cotizador de <span>Criptomonedas</span>
+				</h1>
+        <div className='content'>
 
-  return (
-    <>
-      <h1>Crypto App</h1>
-    </>
-  )
+        </div>
+			</div>
+		</>
+	);
 }
 
-export default App
+export default App;
