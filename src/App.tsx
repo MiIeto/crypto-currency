@@ -2,6 +2,7 @@ import '@fontsource-variable/outfit';
 import CryptoSearchForm from './components/CryptoSearchForm';
 import { useCryptoStore } from './store';
 import { useEffect } from 'react';
+import CryptoPriceDisplay from './components/CryptoPriceDisplay';
 
 function App() {
 	const fetchCryptos = useCryptoStore((state) => state.fetchCryptos);
@@ -17,6 +18,7 @@ function App() {
 				</h1>
 				<div className='content'>
 					<CryptoSearchForm />
+					<CryptoPriceDisplay />
 				</div>
 			</div>
 		</>
